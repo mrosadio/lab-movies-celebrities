@@ -2,6 +2,9 @@
 /* 2. Create the celebrity model */
 /* ----------------------------- */
 
+// const mongoose  = require('mongoose');
+// const Schema    = mongoose.Schema;
+
 const { Schema, model } = require('mongoose');
 
 const celebritySchema = new Schema(
